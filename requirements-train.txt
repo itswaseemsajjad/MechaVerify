@@ -1,0 +1,12 @@
+# Adaptation (SFT + RLVR) dependencies for the notebooks in notebooks/.
+# Intended for a single CUDA GPU with 16 GB of memory. Do NOT install on a
+# CPU-only machine. Versions are pinned because training defaults change
+# between releases.
+torch>=2.3
+transformers==5.12.1
+accelerate==1.14.0
+peft==0.19.1
+trl==1.7.0
+bitsandbytes==0.49.2
+datasets==5.0.0
+qwen-vl-utils==0.0.14

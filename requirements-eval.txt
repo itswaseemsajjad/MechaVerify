@@ -1,0 +1,4 @@
+# Optional: model evaluation through vendor APIs.
+# openai is the client for the OpenRouter provider, google-genai for Gemini.
+openai>=1.50
+google-genai>=0.3

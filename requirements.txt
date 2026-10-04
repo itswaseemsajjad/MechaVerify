@@ -1,0 +1,6 @@
+# Core dependencies for the MechaVerify generator, renderer, and verifier.
+# These are CPU-only and run anywhere (no GPU required).
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10.0
+pytest>=8.0

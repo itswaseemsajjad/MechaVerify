@@ -1,0 +1,6 @@
+# Normalize line endings: treat everything as text with LF in the repo.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.safetensors binary
+*.bin binary

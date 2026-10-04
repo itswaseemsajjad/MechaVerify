@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# MechaVerify generated artifacts (regenerable from seeds; do not commit large data)
+data/
+outputs/
+runs/
+wandb/
+*.png
+!docs/**/*.png
+!assets/**/*.png
+
+# Model checkpoints / weights
+*.safetensors
+*.bin
+*.pt
+checkpoints/
+
+# Secrets (never commit API keys)
+.env
+*.env
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated real-set worklist artifacts
+real_drawn/
+real/
